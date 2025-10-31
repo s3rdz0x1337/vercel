@@ -8,4 +8,9 @@ jobs:
     uses: testorgxs3rdz0/TEST_REPO_1/.github/workflows/recwf.yml@main
     with:
       message: "Hello from Repo B"
-      run: echo "TESTTT"
+
+  echo-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo message
+        run: echo "Hello from Repo B"
