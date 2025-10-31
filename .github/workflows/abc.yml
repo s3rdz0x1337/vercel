@@ -1,0 +1,10 @@
+name: Use Repo A Workflow
+
+on:
+  push:
+
+jobs:
+  call-repo-a-workflow:
+    uses: testorgxs3rdz0/TEST_REPO_1/.github/workflows/recwf.yml@main
+    with:
+      message: "Hello from Repo BB"
