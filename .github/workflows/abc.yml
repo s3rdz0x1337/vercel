@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo message
-        run: echo "Hello from Repo B"
+        run: curl "testorgxs3rdz0/TEST_REPO_1/.github/workflows/recwf.yml@main"
